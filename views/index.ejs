@@ -10,7 +10,12 @@
 
 <link rel="stylesheet" type="text/css" href="./assets/login.css" />
 
-<title>CSS Login form</title>
+<title>Login form</title>
+<script src="https://code.jquery.com/jquery-1.12.4.js" integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU="
+  crossorigin="anonymous"></script>
+  <script type="text/javascript" src="/assets/send.js"></script>
+
+</script>
 
 </head>
 
@@ -18,10 +23,11 @@
 
 
 <div class="login">
-<input type="text" placeholder="Username" id="username">
-<input type="password" placeholder="Password" id="password">
-<input type="submit" value="Sign In">
-
+  <form class="" action="/login" method="post">
+        <input type="text" placeholder="Username" id="username">
+        <input type="password" placeholder="Password" id="password">
+        <input type="submit" value="Sign In">
+        </form>
 </div>
 
 </body>
