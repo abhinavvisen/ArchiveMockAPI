@@ -14,6 +14,7 @@ var Schema = new mongoose.schema({
   classNumber: Number,
   registrationNumber:String
 });
+var somemodels = mongoose.model('somemodels',Schema);
 
 app.get('/login',function(req,res){
   res.render('index');
